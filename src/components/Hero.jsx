@@ -56,7 +56,7 @@ export default function Hero() {
               variants={itemVariants}
               className="text-lg sm:text-xl text-slate-400 mb-8 max-w-xl mx-auto lg:mx-0"
             >
-              Custom logo, free design, produksi cepat. Solusi tas branded untuk UMKM, perusahaan & event Anda.
+              Bantu bisnis Anda tampil lebih profesional dengan tas custom berkualitas tinggi. Mulai dari desain hingga produksi, semua kami tangani.
             </motion.p>
 
             <motion.div 
