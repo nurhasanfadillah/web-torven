@@ -31,13 +31,13 @@ function AboutSection() {
               Torven Industries
             </h2>
             <p className="text-slate-300 mb-4 text-lg">
-              Torven adalah penyedia tas custom yang fokus membantu UMKM dan perusahaan dalam kebutuhan branding, souvenir, dan merchandise.
+              Torven Industries adalah penyedia tas custom yang membantu UMKM & brand tampil lebih profesional melalui produk berkualitas tinggi.
             </p>
             <p className="text-slate-400 mb-4">
-              Kami menyediakan layanan custom logo & desain sesuai request dengan kualitas bahan premium dan proses produksi yang cepat.
+              Kami melayani pembuatan tas custom logo & desain sesuai kebutuhan Anda — mulai dari konsep hingga produksi, semua kami tangani dengan cepat, rapi, dan terpercaya.
             </p>
             <p className="text-slate-400 mb-6">
-              Cocok untuk kebutuhan event, hampers, hingga branding usaha Anda.
+              Cocok untuk kebutuhan souvenir, merchandise, event, hingga branding usaha agar terlihat lebih premium dan berkesan.
             </p>
             <div className="flex flex-wrap gap-3">
               <span className="px-4 py-2 rounded-full glass text-sm text-slate-300">✓ Custom Logo</span>
