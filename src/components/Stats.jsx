@@ -5,8 +5,8 @@ import { ShoppingBag, Smile, Gift, Star } from 'lucide-react'
 const stats = [
   {
     icon: ShoppingBag,
-    value: 10,
-    suffix: 'K+',
+    value: 72429,
+    suffix: '',
     label: 'Tas Terjual',
     color: 'from-glow-cyan to-glow-blue',
   },

@@ -3,7 +3,7 @@ import { useRef } from 'react'
 import { Star, ShoppingBag, Users, Award, CheckCircle } from 'lucide-react'
 
 const socialProofItems = [
-  { icon: ShoppingBag, label: 'Tas Terjual', value: '10,000+' },
+  { icon: ShoppingBag, label: 'Tas Terjual', value: '72,429' },
   { icon: Users, label: 'Klien di Layani', value: '1000+' },
   { icon: Award, label: 'Rating Toko', value: '4.9/5' },
   { icon: CheckCircle, label: 'Tahun Pengalaman', value: '5+' },
