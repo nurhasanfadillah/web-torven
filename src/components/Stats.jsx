@@ -12,9 +12,9 @@ const stats = [
   },
   {
     icon: Smile,
-    value: 500,
+    value: 1000,
     suffix: '+',
-    label: 'Klien Puas',
+    label: 'Klien di Layani',
     color: 'from-glow-blue to-glow-violet',
   },
   {
