@@ -331,6 +331,31 @@ export default function Stats() {
             />
           </div>
         </motion.div>
+
+        {/* Video Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, delay: 0.8 }}
+          className="mt-16"
+        >
+          <h3 className="text-center text-white font-bold text-2xl mb-8">
+            Video Torven Industries
+          </h3>
+          <div className="max-w-3xl mx-auto">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-glow-cyan/20 border border-slate-700">
+              <div className="aspect-video">
+                <iframe 
+                  src="https://www.youtube.com/embed/t20Av5awpJ4" 
+                  title="Torven Industries Video"
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   )
