@@ -63,9 +63,9 @@ function AboutSection() {
 
 function App() {
   return (
-    <div className="min-h-screen bg-bg-primary">
-      <div className="fixed inset-0 bg-mesh pointer-events-none" />
-      <div className="fixed inset-0 grid-bg pointer-events-none opacity-50" />
+    <div className="min-h-screen bg-bg-primary overflow-x-hidden">
+      <div className="fixed inset-0 bg-mesh pointer-events-none" style={{ maxWidth: '100vw', overflow: 'hidden' }} />
+      <div className="fixed inset-0 grid-bg pointer-events-none opacity-50" style={{ maxWidth: '100vw', overflow: 'hidden' }} />
       
       <Navbar />
       <main>

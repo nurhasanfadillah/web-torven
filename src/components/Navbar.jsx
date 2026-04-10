@@ -17,20 +17,20 @@ export default function Navbar() {
     <motion.nav 
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="fixed top-0 left-0 right-0 z-50 glass"
+      className="fixed top-0 left-0 right-0 z-50 glass overflow-x-hidden"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <motion.div 
-            className="flex items-center gap-2"
+            className="flex items-center gap-2 min-w-0"
             whileHover={{ scale: 1.05 }}
           >
             <img 
                 src="/images/logo-torven.png" 
                 alt="TORVEN Logo" 
-                className="h-10 w-auto"
+                className="h-8 w-auto md:h-10 flex-shrink-0"
               />
-            <span className="font-heading font-bold text-xl text-white">TORVEN INDUSTRIES</span>
+            <span className="font-heading font-bold text-base md:text-xl text-white truncate">TORVEN INDUSTRIES</span>
           </motion.div>
 
           <div className="hidden md:flex items-center gap-8">

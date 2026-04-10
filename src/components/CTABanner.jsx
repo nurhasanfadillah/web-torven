@@ -7,11 +7,11 @@ export default function CTABanner() {
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
   return (
-    <section ref={ref} className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 relative">
+    <section ref={ref} className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden rounded-3xl">
         <div className="absolute inset-0 bg-gradient-to-r from-glow-cyan/20 via-glow-blue/20 to-glow-violet/20 animate-gradient" />
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-glow-cyan/30 rounded-full blur-3xl animate-float" />
-        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-glow-violet/30 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
+        <div className="absolute top-0 left-0 md:left-1/4 w-48 h-48 md:w-96 md:h-96 bg-glow-cyan/30 rounded-full blur-3xl animate-float" style={{ maxWidth: '100%' }} />
+        <div className="absolute bottom-0 right-0 md:right-1/4 w-48 h-48 md:w-96 md:h-96 bg-glow-violet/30 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s', maxWidth: '100%' }} />
         
         <div className="absolute inset-0 grid-bg opacity-30" />
         
