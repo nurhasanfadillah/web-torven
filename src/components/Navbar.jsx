@@ -26,7 +26,7 @@ export default function Navbar() {
             whileHover={{ scale: 1.05 }}
           >
             <img 
-                src="https://lh3.googleusercontent.com/d/1Fi3RtVLVjkO7P5nXWLQms5DTeCZmSyJn" 
+                src="/images/logo-torven.png" 
                 alt="TORVEN Logo" 
                 className="h-10 w-auto"
               />

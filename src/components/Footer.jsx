@@ -25,15 +25,15 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer id="kontak" className="relative pt-20 pb-8 px-4 sm:px-6 lg:px-8">
+    <footer id="kontak" className="relative pt-12 md:pt-20 pb-6 md:pb-8 px-4 sm:px-6 lg:px-8">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-glow-cyan/30 to-transparent" />
 
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-8 mb-10 md:mb-12">
           <div className="col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <img 
-                src="https://lh3.googleusercontent.com/d/1Fi3RtVLVjkO7P5nXWLQms5DTeCZmSyJn" 
+                src="/images/logo-torven.png" 
                 alt="TORVEN Logo" 
                 className="h-10 w-auto"
               />

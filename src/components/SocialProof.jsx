@@ -123,16 +123,16 @@ function TestimonialCarousel() {
 
       <button
         onClick={prevSlide}
-        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 w-12 h-12 rounded-full glass-card flex items-center justify-center text-white hover:text-glow-cyan transition-colors z-10"
+        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 md:-translate-x-12 w-12 h-12 md:w-12 md:h-12 rounded-full glass-card flex items-center justify-center text-white hover:text-glow-cyan transition-colors z-10 touch-manipulation"
       >
-        <ChevronLeft className="w-6 h-6" />
+        <ChevronLeft className="w-5 h-5 md:w-6 md:h-6" />
       </button>
 
       <button
         onClick={nextSlide}
-        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 w-12 h-12 rounded-full glass-card flex items-center justify-center text-white hover:text-glow-cyan transition-colors z-10"
+        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 md:translate-x-12 w-12 h-12 md:w-12 md:h-12 rounded-full glass-card flex items-center justify-center text-white hover:text-glow-cyan transition-colors z-10 touch-manipulation"
       >
-        <ChevronRight className="w-6 h-6" />
+        <ChevronRight className="w-5 h-5 md:w-6 md:h-6" />
       </button>
 
       <div className="flex justify-center gap-2 mt-6">
@@ -143,10 +143,10 @@ function TestimonialCarousel() {
               setDirection(index > currentIndex ? 1 : -1)
               setCurrentIndex(index)
             }}
-            className={`w-2 h-2 rounded-full transition-all duration-300 ${
+            className={`p-2 rounded-full transition-all duration-300 touch-manipulation ${
               index === currentIndex 
-                ? 'bg-glow-cyan w-6' 
-                : 'bg-slate-600 hover:bg-slate-500'
+                ? 'bg-glow-cyan w-6 md:w-6' 
+                : 'bg-slate-600 hover:bg-slate-500 w-3 h-3 md:w-2 md:h-2'
             }`}
           />
         ))}
@@ -160,7 +160,7 @@ export default function SocialProof() {
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
   return (
-    <section id="testimoni" ref={ref} className="py-16 px-4 sm:px-6 lg:px-8">
+    <section id="testimoni" ref={ref} className="py-12 md:py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -191,9 +191,6 @@ export default function SocialProof() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-center mb-12"
         >
-          <span className="inline-block px-4 py-2 rounded-full glass text-glow-cyan text-sm font-semibold mb-4">
-            Testimoni
-          </span>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-white mb-4">
             Apa Kata Klien Kami
           </h2>

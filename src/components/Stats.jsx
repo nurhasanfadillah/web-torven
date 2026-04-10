@@ -92,9 +92,6 @@ export default function Stats() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="inline-block px-4 py-2 rounded-full glass text-glow-cyan text-sm font-semibold mb-4">
-            Portofolio
-          </span>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
             Telah Melayani Berbagai
             <span className="gradient-text"> Kebutuhan Branding</span>
@@ -105,7 +102,7 @@ export default function Stats() {
         </motion.div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
           {stats.map((stat, index) => (
             <motion.div
               key={stat.label}
@@ -170,6 +167,8 @@ export default function Stats() {
                 src="https://lh3.googleusercontent.com/d/1XuNYbOf3SufS-C-p4ftA2R-z4EB3e8x7" 
                 alt="Mockup Desain Custom 1" 
                 className="w-full aspect-square object-cover"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3">
                 <span className="text-white text-sm font-medium">Desain Custom</span>
@@ -183,6 +182,8 @@ export default function Stats() {
                 src="https://lh3.googleusercontent.com/d/18jcRkRPiTqFEpXiqILSZCOIK2HdedQcR" 
                 alt="Mockup Desain Custom 2" 
                 className="w-full aspect-square object-cover"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3">
                 <span className="text-white text-sm font-medium">Desain Custom</span>
@@ -196,6 +197,8 @@ export default function Stats() {
                 src="https://lh3.googleusercontent.com/d/1SufYA2k-x9YCtrHnQALTYbob7bIFuebZ" 
                 alt="Mockup Desain Custom 3" 
                 className="w-full aspect-square object-cover"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3">
                 <span className="text-white text-sm font-medium">Desain Custom</span>
@@ -209,6 +212,8 @@ export default function Stats() {
                 src="https://lh3.googleusercontent.com/d/1TqgpTfZFWcBBb605aKZjndv_TNy5yP3w" 
                 alt="Mockup Desain Custom 4" 
                 className="w-full aspect-square object-cover"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3">
                 <span className="text-white text-sm font-medium">Desain Custom</span>
@@ -222,6 +227,8 @@ export default function Stats() {
                 src="https://lh3.googleusercontent.com/d/18CPZlENiz-9WRwo4M3gu0ppJphEqVwWN" 
                 alt="Mockup Desain Custom 5" 
                 className="w-full aspect-square object-cover"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3">
                 <span className="text-white text-sm font-medium">Desain Custom</span>
@@ -235,6 +242,8 @@ export default function Stats() {
                 src="https://lh3.googleusercontent.com/d/1JbzB1vS-ofiFdUu881A3CIIdwcdnVHzw" 
                 alt="Mockup Desain Custom 6" 
                 className="w-full aspect-square object-cover"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3">
                 <span className="text-white text-sm font-medium">Desain Custom</span>
@@ -253,12 +262,14 @@ export default function Stats() {
           <h3 className="text-center text-white font-bold text-2xl mb-8">
             ⭐ Dipercaya oleh 100+ UMKM & Brand di Indonesia
           </h3>
-          <div className="flex overflow-x-auto snap-x snap-mandatory gap-4 md:gap-8 pb-4 md:pb-0 md:flex-wrap md:overflow-visible md:justify-center md:items-center">
+          <div className="flex overflow-x-auto snap-x snap-mandatory gap-4 md:gap-8 pb-4 md:pb-0 md:flex-wrap md:overflow-visible md:justify-center md:items-center max-w-full scrollbar-hide">
             <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/1fINTQmAuWDJdHosZ_bMXjOXXGqbtmsja" 
                 alt="Client Logo 1" 
                 className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div className="flex-shrink-0 w-20 snap-start">

@@ -24,7 +24,7 @@ const itemVariants = {
 
 export default function Hero() {
   return (
-    <section className="min-h-screen pt-24 md:pt-32 pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+    <section className="min-h-screen pt-20 md:pt-24 lg:pt-32 pb-12 md:pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="absolute top-1/4 left-10 w-64 h-64 bg-glow-cyan/10 rounded-full blur-3xl animate-float" />
       <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-glow-violet/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
       
@@ -43,7 +43,7 @@ export default function Hero() {
 
             <motion.h1 
               variants={itemVariants}
-              className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6"
+              className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 md:mb-6"
             >
               <span className="text-white">Tas Custom untuk</span>
               <br />
@@ -110,7 +110,7 @@ export default function Hero() {
               className="relative rounded-3xl overflow-hidden border border-glow-cyan/30 glass-card"
             >
               <img
-                src="https://lh3.googleusercontent.com/d/1lLdQTvkNkm70TB4UMJgOcY7j-gecYgi3"
+                src="/images/hero-bag.jpeg"
                 alt="Torven Custom Bags"
                 className="w-full h-auto"
               />

@@ -14,7 +14,7 @@ function AboutSection() {
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
   return (
-    <section id="tentang" ref={ref} className="py-20 px-4 sm:px-6 lg:px-8 relative">
+    <section id="tentang" ref={ref} className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 relative">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-glow-violet/5 rounded-full blur-3xl" />
       
       <div className="max-w-7xl mx-auto relative z-10">
@@ -24,12 +24,6 @@ function AboutSection() {
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6 }}
           >
-            <span className="inline-block px-4 py-2 rounded-full glass text-glow-cyan text-sm font-semibold mb-4">
-              Tentang Kami
-            </span>
-            <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-              Torven Industries
-            </h2>
             <p className="text-slate-300 mb-4 text-lg">
               Torven Industries adalah penyedia tas custom yang membantu UMKM & brand tampil lebih profesional melalui produk berkualitas tinggi.
             </p>
@@ -53,11 +47,11 @@ function AboutSection() {
             className="relative"
           >
             <div className="absolute inset-0 bg-gradient-to-r from-glow-cyan via-glow-blue to-glow-violet rounded-3xl blur-2xl opacity-30" />
-            <div className="aspect-square rounded-3xl overflow-hidden glass-card relative">
+            <div className="rounded-3xl overflow-hidden glass-card relative">
               <img 
-                src="https://lh3.googleusercontent.com/d/1b5cbc6YA8sPV4ERGdmLmJK8VojpAsl3z" 
+                src="/images/production_image.jpg" 
                 alt="Torven Industries" 
-                className="w-full h-full object-cover" 
+                className="w-full h-auto" 
               />
             </div>
           </motion.div>
