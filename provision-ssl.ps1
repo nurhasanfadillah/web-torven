@@ -1,0 +1,2 @@
+$body = @{domain='torven.web.id'} | ConvertTo-Json
+Invoke-RestMethod -Uri 'https://api.netlify.com/api/v1/sites/0ea83f23-0246-45f1-9d69-254d63a41c1e/provisiontls' -Method POST -Headers @{Authorization='Bearer nfp_shbhByqaqk8ArT2vcuozVhWyptb9TpHd6737'} -Body $body -ContentType 'application/json'
