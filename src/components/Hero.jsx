@@ -24,9 +24,9 @@ const itemVariants = {
 
 export default function Hero() {
   return (
-    <section className="min-h-screen pt-20 md:pt-24 lg:pt-32 pb-12 md:pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-      <div className="absolute top-1/4 left-10 w-64 h-64 bg-glow-cyan/10 rounded-full blur-3xl animate-float" />
-      <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-glow-violet/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
+    <section className="min-h-screen pt-20 md:pt-24 lg:pt-32 pb-12 md:pb-16 px-4 sm:px-6 lg:px-8 relative overflow-x-hidden">
+      <div className="absolute top-1/4 left-0 w-48 h-64 md:w-64 md:h-64 bg-glow-cyan/10 rounded-full blur-3xl animate-float" style={{ maxWidth: '100%' }} />
+      <div className="absolute bottom-1/4 right-0 w-48 h-96 md:w-96 bg-glow-violet/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s', maxWidth: '100%' }} />
       
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">

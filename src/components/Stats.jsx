@@ -262,112 +262,83 @@ export default function Stats() {
           <h3 className="text-center text-white font-bold text-2xl mb-8">
             ⭐ Dipercaya oleh 100+ UMKM & Brand di Indonesia
           </h3>
-          <div className="flex overflow-x-auto snap-x snap-mandatory gap-4 md:gap-8 pb-4 md:pb-0 md:flex-wrap md:overflow-visible md:justify-center md:items-center max-w-full scrollbar-hide">
-            <div className="flex-shrink-0 w-20 snap-start">
+          <div className="overflow-x-auto scrollbar-hide -mx-4 px-4 md:mx-0 md:px-0">
+            <div className="flex gap-3 md:gap-8 pb-4 md:pb-0 md:flex-wrap md:justify-center md:items-center max-w-full min-w-0">
               <img 
                 src="https://lh3.googleusercontent.com/d/1fINTQmAuWDJdHosZ_bMXjOXXGqbtmsja" 
                 alt="Client Logo 1" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
                 loading="lazy"
-                decoding="async"
               />
-            </div>
-            <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/1IUZngmSUwY3mharsGNQfTMW0oLzfV1-f" 
                 alt="Client Logo 2" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
               />
-            </div>
-            <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/1GIrDKewqrz_RwNLOKbZ6pMdPQTlHTVTv" 
                 alt="Client Logo 3" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
               />
-            </div>
-            <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/1nohZOoy_ptNl8XL3jat8_Ip1VpaPadSw" 
                 alt="Client Logo 4" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
               />
-            </div>
-            <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/1Kfp_ZWiFOZIp0ZSBAsCufukWxBvIsPkz" 
                 alt="Client Logo 5" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
               />
-            </div>
-            <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/1Qc0nAiTDWfNdQGhBcKh34tTTQJuIN1vh" 
                 alt="Client Logo 6" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
               />
-            </div>
-            <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/1C_b0UXid4UC2CBr5kUoe-ZMaAjwEJG_H" 
                 alt="Client Logo 7" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
               />
-            </div>
-            <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/1s8e3VSBEXgJ_UItqIVsrvzXp-0GF6o18" 
                 alt="Client Logo 8" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
               />
-            </div>
-            <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/1oYUd3j5xg1inJhk9APy8YtUfk7iqPkij" 
                 alt="Client Logo 9" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
               />
-            </div>
-            <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/1nFfEg4ZKV5Dk_boqr2CKHTMCviDO26Tl" 
                 alt="Client Logo 10" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
               />
-            </div>
-            <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/1usVRBEvPvdsidD4dI6eZRKPftX1K_sE2" 
                 alt="Client Logo 11" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
               />
-            </div>
-            <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/1rB0tXv-NVgm8-WOepy41J5JctES_ueLX" 
                 alt="Client Logo 12" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
               />
-            </div>
-            <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/1Dlu3bCP_9hCN3nMVJGUHq2qDHriusc8j" 
                 alt="Client Logo 13" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
               />
-            </div>
-            <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/1l2qdIqMmxm-fAfHxVf4pwKuO68vmQqdt" 
                 alt="Client Logo 14" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
               />
-            </div>
-            <div className="flex-shrink-0 w-20 snap-start">
               <img 
                 src="https://lh3.googleusercontent.com/d/12_i_evAuK9XxayotZrQl9A0o8bigXBdH" 
                 alt="Client Logo 15" 
-                className="h-10 md:h-12 w-20 md:w-auto object-contain"
+                className="h-8 w-12 md:h-12 md:w-auto object-contain flex-shrink-0"
               />
             </div>
           </div>
