@@ -251,7 +251,7 @@ export default function Stats() {
           className="mt-16"
         >
           <h3 className="text-center text-white font-bold text-2xl mb-8">
-            Klien yang Pernah Dilayani
+            ⭐ Dipercaya oleh 100+ UMKM & Brand di Indonesia
           </h3>
           <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8">
             <img 
